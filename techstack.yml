@@ -1,0 +1,356 @@
+repo_name: muhenge/REST-API-example
+report_id: 264260e0c4b3cc9de8704bfa5a951e62
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-01T14:46:28+00:00'
+requested_by: chrisn
+provider: github
+branch: master
+detected_tools_count: 25
+tools:
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/muhenge/REST-API-example
+  detection_source: Repo Metadata
+- name: Sinatra
+  description: Classy web-development dressed in a DSL
+  website_url: http://www.sinatrarb.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/999/logo.png
+  detection_source_url: https://github.com/muhenge/REST-API-example/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Sean O'Halpin
+  last_updated_on: 2011-02-24 12:03:33.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  version: 1.2.6
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/muhenge/REST-API-example/blob/master/Gemfile.lock
+  detection_source: Repo Metadata
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/muhenge/REST-API-example/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Sean O'Halpin
+  last_updated_on: 2011-02-24 12:03:33.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/muhenge/REST-API-example
+  detection_source: Repo Metadata
+- name: data_mapper
+  description: Faster, Better, Simpler
+  package_url: https://rubygems.org/data_mapper
+  version: 1.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19290/default_e78f316e86c139f324d83ae84e5612dbd0d7e60c.png
+  detection_source_url: https://github.com/muhenge/REST-API-example/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Renzo Crisóstomo
+  last_updated_on: 2013-10-28 14:24:49.000000000 Z
+- name: data_objects
+  description: Provide a standard and simplified API for communicating with RDBMS
+    from Ruby
+  package_url: https://rubygems.org/data_objects
+  version: 0.10.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19503/default_4c2ae2f50938cbed077dc9640e04ac21760cb7ae.png
+  detection_source_url: https://github.com/muhenge/REST-API-example/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Renzo Crisóstomo
+  last_updated_on: 2013-10-28 14:24:49.000000000 Z
+- name: dm-aggregates
+  description: DataMapper plugin providing support for aggregates on collections
+  package_url: https://rubygems.org/dm-aggregates
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19384/default_b8d34ca81aebc76c0b551b666a1d21df7e697544.png
+  detection_source_url: https://github.com/muhenge/REST-API-example/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sean O'Halpin
+  last_updated_on: 2011-02-24 12:03:33.000000000 Z
+- name: dm-constraints
+  description: DataMapper plugin constraining relationships
+  package_url: https://rubygems.org/dm-constraints
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/muhenge/REST-API-example/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sean O'Halpin
+  last_updated_on: 2011-02-24 12:03:33.000000000 Z
+- name: dm-core
+  description: DataMapper core library
+  package_url: https://rubygems.org/dm-core
+  version: 1.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18998/default_fa4e9feaee3e999f83ef76fb9bc7980dbc28d29a.png
+  detection_source_url: https://github.com/muhenge/REST-API-example/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sean O'Halpin
+  last_updated_on: 2011-02-24 12:03:33.000000000 Z
+- name: dm-migrations
+  description: DataMapper plugin for writing and speccing migrations
+  package_url: https://rubygems.org/dm-migrations
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19211/default_e8ac24f22f88ea3b04a85afe7ad222faed6d5605.png
+  detection_source_url: https://github.com/muhenge/REST-API-example/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Chris Lowis
+  last_updated_on: 2011-02-24 14:34:29.000000000 Z
+- name: dm-mysql-adapter
+  description: MySQL Adapter for DataMapper
+  package_url: https://rubygems.org/dm-mysql-adapter
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/muhenge/REST-API-example/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Chris Lowis
+  last_updated_on: 2011-02-24 14:34:29.000000000 Z
+- name: dm-serializer
+  description: DataMapper plugin for serializing Resources and Collections
+  package_url: https://rubygems.org/dm-serializer
+  version: 1.2.2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/muhenge/REST-API-example/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sean O'Halpin
+  last_updated_on: 2011-02-24 12:03:33.000000000 Z
+- name: dm-sqlite-adapter
+  description: Sqlite3 Adapter for DataMapper
+  package_url: https://rubygems.org/dm-sqlite-adapter
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19193/default_5187ff3b355a35f0e1aa17a93522764d09725543.png
+  detection_source_url: https://github.com/muhenge/REST-API-example/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Chris Lowis
+  last_updated_on: 2011-02-24 14:34:29.000000000 Z
+- name: dm-timestamps
+  description: DataMapper plugin for magical timestamps
+  package_url: https://rubygems.org/dm-timestamps
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19447/default_6065f0f8f8701db6646fcc11dcd2fc46055c696b.png
+  detection_source_url: https://github.com/muhenge/REST-API-example/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sean O'Halpin
+  last_updated_on: 2011-02-24 12:03:33.000000000 Z
+- name: dm-types
+  description: DataMapper plugin providing extra data types
+  package_url: https://rubygems.org/dm-types
+  version: 1.2.2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19421/default_7c4e3b5df7f4409d482e8f5c5877480803f7cb31.png
+  detection_source_url: https://github.com/muhenge/REST-API-example/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sean O'Halpin
+  last_updated_on: 2011-02-24 12:03:33.000000000 Z
+- name: dm-validations
+  description: Library for performing validations on DM models and pure Ruby object
+  package_url: https://rubygems.org/dm-validations
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19160/default_a47099776ab193b8aff98e72c8df73574091bcbf.png
+  detection_source_url: https://github.com/muhenge/REST-API-example/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Chris Lowis
+  last_updated_on: 2011-02-24 14:34:29.000000000 Z
+- name: do_mysql
+  description: Implements the DataObjects API for MySQL
+  package_url: https://rubygems.org/do_mysql
+  version: 0.10.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/muhenge/REST-API-example/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Chris Lowis
+  last_updated_on: 2011-02-24 14:34:29.000000000 Z
+- name: do_sqlite3
+  description: Implements the DataObjects API for Sqlite3
+  package_url: https://rubygems.org/do_sqlite3
+  version: 0.10.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19409/default_4f1b7232c9ed15f5f1a7f88608987c18a2b4099f.png
+  detection_source_url: https://github.com/muhenge/REST-API-example/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Chris Lowis
+  last_updated_on: 2011-02-24 14:34:29.000000000 Z
+- name: extlib
+  description: Support library for Merb
+  package_url: https://rubygems.org/extlib
+  version: 0.9.16
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19128/default_07f804b19065548f8ef85c2b9691567b8f14e8cd.png
+  detection_source_url: https://github.com/muhenge/REST-API-example/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sean O'Halpin
+  last_updated_on: 2011-02-24 12:03:33.000000000 Z
+- name: json
+  description: This is a JSON implementation as a Ruby extension in C
+  package_url: https://rubygems.org/json
+  version: 1.8.1
+  license: Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18822/default_19184669508c0f71aec9521d5f14d71b77203130.png
+  detection_source_url: https://github.com/muhenge/REST-API-example/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sean O'Halpin
+  last_updated_on: 2011-02-24 12:03:33.000000000 Z
+  vulnerabilities:
+  - name: Unsafe object creation in json RubyGem
+    cve_id: CVE-2020-10663
+    cve_url: https://github.com/advisories/GHSA-jphg-qwrw-7w9g
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.3.0
+- name: rack-cache
+  description: Rack::Cache is suitable as a quick drop-in component to enable HTTP
+    caching for Rack-based applications that produce freshness
+  package_url: https://rubygems.org/rack-cache
+  version: '1.2'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19322/default_329cff62f9ca523933287f87c0ae9d239d32165e.png
+  detection_source_url: https://github.com/muhenge/REST-API-example/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sean O'Halpin
+  last_updated_on: 2011-02-24 12:03:33.000000000 Z
+- name: rack-contrib
+  description: Contributed Rack Middleware and Utilities
+  package_url: https://rubygems.org/rack-contrib
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19330/default_cdea09f7df3750014f60c03f9325597ab4d91e2c.png
+  detection_source_url: https://github.com/muhenge/REST-API-example/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sean O'Halpin
+  last_updated_on: 2011-02-24 12:03:33.000000000 Z
+- name: systemu
+  description: Universal capture of stdout and stderr and handling of child process
+    pid for windows
+  package_url: https://rubygems.org/systemu
+  version: 2.5.2
+  license: Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19232/default_9d690be2e4cce2ae7ccb9ebe030550089fe4ad1c.png
+  detection_source_url: https://github.com/muhenge/REST-API-example/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sean O'Halpin
+  last_updated_on: 2011-02-24 12:03:33.000000000 Z
+- name: unicorn
+  description: Unicorn is an HTTP server for Rack applications designed to only serve
+    fast clients on low-latency
+  package_url: https://rubygems.org/unicorn
+  version: 4.6.3
+  license: GPL-2.0+,Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19218/default_504c6d1cb95a30a2134a5c2236c1c37c91700cc1.png
+  detection_source_url: https://github.com/muhenge/REST-API-example/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sean O'Halpin
+  last_updated_on: 2011-02-24 12:03:33.000000000 Z
